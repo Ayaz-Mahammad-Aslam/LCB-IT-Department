@@ -1,0 +1,20 @@
+.carousel-item{
+    height: 700px;
+}
+.carousel-item img{
+    height: 700px;
+}
+#carouselMobile{
+    display: none;
+}
+#carouselDesktop{
+    display: block;
+}
+@media only screen and (max-width: 600px){
+    #carouselDesktop{
+        display: none;
+   }
+    #carouselMobile{
+        display: block;
+   }
+}
