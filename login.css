@@ -1,0 +1,58 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: url('project.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-box {
+    background: rgba(255, 255, 255, 0.8); /* Adjust the alpha value to control transparency */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
